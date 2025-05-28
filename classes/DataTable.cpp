@@ -131,7 +131,7 @@ void DataTable::displayTable(){
     Display Data sorted.
 */
 void DataTable::displayData(){
-    cout << "Data (Sorted): [";
+    cout << "Sorted Data: [";
     for (int data = 0; data < this->arrSize; data++){
         cout << *(arrPtr + data) << ", ";
     }
